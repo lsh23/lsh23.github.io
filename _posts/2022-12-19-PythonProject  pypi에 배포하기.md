@@ -25,7 +25,7 @@ PIP를 통해서 PyPI에 저장된 pacakge를 로컬 환경에 설치할 수 있
 `src` 폴더 하위에 프로젝트 코드가 위치하고,  
 `pyproject.toml`파일은 프로젝트의 metadata를 가지고 있는 파일이다.  
 pyproject.toml의 자세한 내용은 공식 문서를 참고하자.[^pyproject_toml]
-> setup.cfg, setup.py를 이용하는 방법은 legacy 방식이며, python 3.12 부터 deprecated 예정이다.
+> setup.cfg, setup.py를 이용하는 방법은 legacy 방식이며, python 3.12 부터 지원하지 않을 예정이다.
 {: .prompt-info }
 
 ```
