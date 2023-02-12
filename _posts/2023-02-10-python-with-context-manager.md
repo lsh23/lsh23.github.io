@@ -2,7 +2,7 @@
 title: python with 구문과 Context Manager
 date: 2023-02-10 20:54:42 +0900
 categories: [ Python ]
-tags: [ Python ]
+tags: [ Python, Context Manager ]
 comments: true
 ---
 python의 with문의 동작을 Context Manager와 함께 알아본다.
