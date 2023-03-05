@@ -71,7 +71,25 @@ mc는 위의 예제에 우리가 선언한 MyClass로 부터 만들어진 객체
 x의 클래스는 y이다. 라는 의미는 y로 부터 x라는 객체를 만들 수 있다는 것이고,  
 여기서 y가 metaclass가 되는 것이고, y로 부터 생성되는 객체인 x가 각 개별 클래스임을 이해 할 수 있다.
 
+## type 클래스의 클래스는?
+위의 예제들을 통해서 모든 클래스는 type으로 부터 만들어진 객체임을 확인했다.  
 
+그렇다면 type 클래스의 클래스는 무엇일까? 
+
+```shell
+>>> type
+<class 'type'>
+>>> type.__class__
+<class 'type'>
+>>> type.__class__.__class__
+<class 'type'>
+```
+
+type 클래스의 클래스는 type 자기자신이다. 
+따라서 아래와 같이 정리 할 수 있다.
+python에서 모든 클래스는 type이라는 클래스로부터 만들어지고,
+모든 클래스를 생성하는 type 클래스는 python에서 metaclass를 의미한다.
+또한, type 클래스는 자기자신으로 부터 만들어지므로, type 클래스는 최상위 metaclass임을 알 수 있다. 
 
 ## Refercence
 * <https://realpython.com/python-metaclasses/>
