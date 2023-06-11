@@ -2,7 +2,7 @@
 title: Serivce 테스트
 date: 2023-04-23 15:20:42 +0900
 categories: [ Spring ]
-tags: [ Spring, Test, Controller ]
+tags: [ Spring, Test, Service ]
 comments: true
 ---
 
