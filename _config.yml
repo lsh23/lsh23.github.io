@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: sehyeong.lee                        # the main title
 
-tagline: with DevOps   # it will display as the sub-title
+tagline: 검증과 테스트에 관심이 많고 자동화를 좋아하는 개발자입니다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
